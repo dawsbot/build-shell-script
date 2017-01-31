@@ -3,6 +3,7 @@ import buildShellScript from './';
 
 test('alias', t => {
   t.is(buildShellScript.alias('a', 'b'), 'alias a="b"');
+  t.is(buildShellScript.alias('a*', 'b'), `alias a'*'="b"`);
 });
 
 test('fn', t => {

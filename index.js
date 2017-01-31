@@ -1,5 +1,6 @@
 'use strict';
 function alias(prefix, suffix) {
+  prefix = prefix.replace('*', `'*'`);
   return `alias ${prefix}="${suffix}"`;
 }
 
