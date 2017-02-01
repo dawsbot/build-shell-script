@@ -1,6 +1,6 @@
 {
   "name": "build-shell-script",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Build shell aliases and functions",
   "license": "MIT",
   "homepage": "https://github.com/dawsonbotsford/build-shell-script#readme",
